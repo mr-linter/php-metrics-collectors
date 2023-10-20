@@ -1,0 +1,34 @@
+{
+    "name": "mr-linter/php-metrics-collectors",
+    "description": "Metrics: Collectors",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "artarts36",
+            "email": "temicska99@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "mr-linter/metrics-contracts": "^0.14.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrLinter\\Metrics\\Collectors\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MrLinter\\Metrics\\Collectors\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit --colors=always --configuration phpunit.xml"
+        ]
+    }
+}
