@@ -1,5 +1,5 @@
 {
-    "name": "mr-linter/php-metrics-collectors",
+    "name": "mr-linter/metrics-collectors",
     "description": "Metrics: Collectors",
     "type": "library",
     "license": "MIT",
